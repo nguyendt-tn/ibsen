@@ -242,23 +242,23 @@ margin-top: -8px;
   color: red;
 }
 .about{
-  display: flex;flex-wrap: wrap;justify-content: center;align-items: center;background: #ebe51f;height: 600px
+  display: flex;flex-wrap: wrap;justify-content: center;align-items: center;background: #ebe51f;
 }
 .about .img{
-  width: 550px;height: 400px;margin-right: 50px;
+  width: 550px;
 }
 .about .img img{
   width: 100%;
   height: 100%;
 }
 .about .txt{
-  width: 550px;height: 400px  ;margin-left: 50px;text-align: center;
+  width: 550px;text-align: center;
 }
 .about .txt h1{
-  font-weight: bold;font-size: 1.75rem;line-height: 3;
+  font-weight: bold;font-size: 1.75rem;line-height: 1.5;
 }
 .about .txt span{
-  font-size: 1.5rem;line-height: 2;
+  font-size: 1.5rem;line-height: 1.5;
 }
 #partner {
   padding: 4rem;
@@ -274,7 +274,6 @@ margin-top: -8px;
   text-align: center;
   font-size: 18px;
   background: #fff;
-
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -288,4 +287,9 @@ margin-top: -8px;
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+}
+@media screen and (max-width: 768px) {
+  #partner{
+    padding: 1.5rem;
+  }
 }
